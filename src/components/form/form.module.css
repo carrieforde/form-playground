@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  gap: 24px;
+  max-width: 100%;
+  width: 560px;
+  flex-wrap: wrap;
+  padding: 24px;
+}
+
+.actions {
+  display: flex;
+  gap: 24px;
+  flex-basis: 100%;
+  margin-top: 24px;
+}

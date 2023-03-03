@@ -1,0 +1,27 @@
+.flexWrap {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.select {
+  appearance: none;
+  background: url("chevron-down.svg") no-repeat 95% center;
+  background-size: 14px;
+  border: 1px solid var(--color-default-400);
+  border-radius: var(--border-radius);
+  color: var(--heading-color);
+  font-size: var(--base-font-size);
+  padding: var(--base-spacing);
+  width: 100%;
+  display: grid;
+}
+
+/* .select::after {
+  display: block;
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: hotpink;
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+} */

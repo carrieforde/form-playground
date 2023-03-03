@@ -1,0 +1,33 @@
+.formControl {
+  --label-color: var(--heading-color);
+
+  flex-basis: 100%;
+}
+
+.label {
+  color: var(--label-color);
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 4px;
+}
+
+.optional {
+  color: var(--color-default-500);
+}
+
+.hint {
+  font-size: 12px;
+  margin: 0;
+}
+
+.error {
+  --label-color: var(--color-error-main);
+  color: var(--color-error-main);
+}
+
+@media screen and (min-width: 600px) {
+  .inline {
+    flex: 1;
+  }
+}
